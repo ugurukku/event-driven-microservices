@@ -1,4 +1,4 @@
-package com.ugurukku.event.driven.microservice.twitter.to.kafka.service.config;
+package com.ugurukku.event.driven.microservice.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -12,6 +12,10 @@ import java.util.List;
 public class ConfigData {
     private String welcomeMessage;
     private List<String> twitterKeywords;
+    private Boolean enableMockTweets;
+    private Long mockSleepMs;
+    private Integer mockMinTweetLength;
+    private Integer mockMaxTweetLength;
 
 
 }

@@ -1,11 +1,403 @@
-2023-05-31 23:35:51 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 17.0.5 on UGUR with PID 8936 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
-2023-05-31 23:35:51 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
-2023-05-31 23:35:52 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.934 seconds (JVM running for 1.679)
-2023-05-31 23:35:52 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
-2023-05-31 23:35:52 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-05-31 23:38:24 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 17.0.5 on UGUR with PID 21152 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
-2023-05-31 23:38:24 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
-2023-05-31 23:38:25 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.995 seconds (JVM running for 1.643)
-2023-05-31 23:38:25 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
-2023-05-31 23:38:25 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
-2023-05-31 23:38:25 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 00:16:13 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.16 on UGUR with PID 10516 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-06-01 00:16:13 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-01 00:16:14 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.964 seconds (JVM running for 1.869)
+2023-06-01 00:16:14 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-06-01 00:16:14 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-06-01 00:16:14 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 00:16:14 [main] INFO  c.u.e.d.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 00:16:14 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:16:15 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:16:15 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
+2023-06-01 00:16:15 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:16:15 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:16:15 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
+2023-06-01 00:16:16 [Twitter Stream consumer /  [1][Waiting for 500 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:16:16 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:16:16 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 1000 milliseconds
+2023-06-01 00:16:17 [Twitter Stream consumer /  [1][Waiting for 1000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:16:18 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:16:18 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 2000 milliseconds
+2023-06-01 00:16:20 [Twitter Stream consumer /  [1][Waiting for 2000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:16:20 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:16:20 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 4000 milliseconds
+2023-06-01 00:16:24 [Twitter Stream consumer /  [1][Waiting for 4000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:16:25 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:16:25 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 8000 milliseconds
+2023-06-01 00:16:33 [Twitter Stream consumer /  [1][Waiting for 8000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:16:33 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:16:33 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:16:49 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:16:50 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:16:50 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:17:06 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:17:06 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:17:06 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:17:22 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:17:23 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:17:23 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:17:39 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:17:39 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:17:39 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:17:55 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:17:55 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:17:55 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:18:11 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:18:12 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:18:12 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:18:28 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:18:28 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:18:28 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:18:44 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:18:45 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:18:45 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:19:01 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:19:01 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:19:01 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:19:17 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:19:18 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:19:18 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:19:34 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:19:34 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:19:34 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:19:50 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:19:51 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:19:51 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:20:07 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:20:07 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:20:07 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:20:23 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:20:24 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:20:24 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:20:40 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:20:40 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:20:40 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:20:56 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:20:57 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:20:57 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:21:13 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:21:13 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:21:13 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:21:29 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:21:30 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:21:30 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:21:46 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:21:46 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:21:46 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:22:02 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:22:03 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:22:03 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:22:19 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:22:19 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:22:19 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:22:35 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:22:36 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:22:36 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:22:52 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:22:52 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 00:22:52 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 00:23:08 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 00:23:09 [SpringApplicationShutdownHook] INFO  c.u.e.d.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream!
+2023-06-01 01:05:14 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.16 on UGUR with PID 12048 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-06-01 01:05:14 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-01 01:05:14 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.363 seconds (JVM running for 2.035)
+2023-06-01 01:05:14 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-06-01 01:05:14 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-06-01 01:05:14 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:05:14 [main] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Started mock filtering stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:07:28 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.16 on UGUR with PID 19328 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-06-01 01:07:28 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-01 01:07:29 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.348 seconds (JVM running for 1.91)
+2023-06-01 01:07:29 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-06-01 01:07:29 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-06-01 01:07:29 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:07:29 [main] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Started mock filtering stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:10:39 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.16 on UGUR with PID 17832 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-06-01 01:10:39 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-01 01:10:40 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.358 seconds (JVM running for 1.999)
+2023-06-01 01:10:40 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-06-01 01:10:40 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-06-01 01:10:40 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:10:40 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:10:40 [main] INFO  c.u.e.d.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:10:41 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:10:41 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
+2023-06-01 01:10:41 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:10:42 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:10:42 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
+2023-06-01 01:10:42 [Twitter Stream consumer /  [1][Waiting for 500 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:10:43 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:10:43 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 1000 milliseconds
+2023-06-01 01:10:44 [Twitter Stream consumer /  [1][Waiting for 1000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:10:44 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:10:44 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 2000 milliseconds
+2023-06-01 01:10:46 [Twitter Stream consumer /  [1][Waiting for 2000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:10:47 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:10:47 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 4000 milliseconds
+2023-06-01 01:10:51 [Twitter Stream consumer /  [1][Waiting for 4000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:10:51 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:10:51 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 8000 milliseconds
+2023-06-01 01:10:59 [Twitter Stream consumer /  [1][Waiting for 8000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:11:00 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:11:00 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 01:11:16 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:11:16 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:11:16 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 01:11:32 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:11:33 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:11:33 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 01:11:35 [SpringApplicationShutdownHook] INFO  c.u.e.d.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream!
+2023-06-01 01:11:40 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.16 on UGUR with PID 7652 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-06-01 01:11:40 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-01 01:11:41 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.178 seconds (JVM running for 1.727)
+2023-06-01 01:11:41 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-06-01 01:11:41 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-06-01 01:11:41 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:11:41 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-01 01:11:41 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.ugurukku.event.driven.microservice.twitter.to.kafka.service.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:27)
+Caused by: java.lang.IllegalStateException: Access token already available.
+	at twitter4j.auth.OAuthAuthorization.getOAuthRequestToken(OAuthAuthorization.java:103)
+	at twitter4j.auth.OAuthAuthorization.getOAuthRequestToken(OAuthAuthorization.java:92)
+	at twitter4j.TwitterBaseImpl.getOAuthRequestToken(TwitterBaseImpl.java:296)
+	at twitter4j.TwitterBaseImpl.getOAuthRequestToken(TwitterBaseImpl.java:291)
+	at com.ugurukku.event.driven.microservice.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner.start(TwitterKafkaStreamRunner.java:39)
+	at com.ugurukku.event.driven.microservice.twitter.to.kafka.service.TwitterToKafkaApplication.run(TwitterToKafkaApplication.java:36)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768)
+	... 5 common frames omitted
+2023-06-01 01:11:41 [main] INFO  c.u.e.d.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream!
+2023-06-01 01:11:50 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.16 on UGUR with PID 20588 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-06-01 01:11:50 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-01 01:11:51 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.249 seconds (JVM running for 1.867)
+2023-06-01 01:11:51 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-06-01 01:11:51 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-06-01 01:11:51 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:11:51 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-01 01:11:51 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.ugurukku.event.driven.microservice.twitter.to.kafka.service.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:27)
+Caused by: java.lang.IllegalStateException: Access token already available.
+	at twitter4j.auth.OAuthAuthorization.getOAuthRequestToken(OAuthAuthorization.java:103)
+	at twitter4j.auth.OAuthAuthorization.getOAuthRequestToken(OAuthAuthorization.java:92)
+	at twitter4j.TwitterBaseImpl.getOAuthRequestToken(TwitterBaseImpl.java:296)
+	at twitter4j.TwitterBaseImpl.getOAuthRequestToken(TwitterBaseImpl.java:291)
+	at com.ugurukku.event.driven.microservice.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner.start(TwitterKafkaStreamRunner.java:39)
+	at com.ugurukku.event.driven.microservice.twitter.to.kafka.service.TwitterToKafkaApplication.run(TwitterToKafkaApplication.java:36)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768)
+	... 5 common frames omitted
+2023-06-01 01:11:51 [main] INFO  c.u.e.d.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream!
+2023-06-01 01:12:06 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.16 on UGUR with PID 20984 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-06-01 01:12:06 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-01 01:12:06 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.342 seconds (JVM running for 3.025)
+2023-06-01 01:12:06 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-06-01 01:12:06 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-06-01 01:12:06 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:12:06 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-01 01:12:06 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.ugurukku.event.driven.microservice.twitter.to.kafka.service.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:27)
+Caused by: java.lang.IllegalStateException: Access token already available.
+	at twitter4j.auth.OAuthAuthorization.getOAuthRequestToken(OAuthAuthorization.java:103)
+	at twitter4j.auth.OAuthAuthorization.getOAuthRequestToken(OAuthAuthorization.java:92)
+	at twitter4j.TwitterBaseImpl.getOAuthRequestToken(TwitterBaseImpl.java:296)
+	at twitter4j.TwitterBaseImpl.getOAuthRequestToken(TwitterBaseImpl.java:291)
+	at com.ugurukku.event.driven.microservice.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner.start(TwitterKafkaStreamRunner.java:39)
+	at com.ugurukku.event.driven.microservice.twitter.to.kafka.service.TwitterToKafkaApplication.run(TwitterToKafkaApplication.java:36)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768)
+	... 5 common frames omitted
+2023-06-01 01:12:06 [main] INFO  c.u.e.d.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream!
+2023-06-01 01:12:28 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.16 on UGUR with PID 19480 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-06-01 01:12:28 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-01 01:12:28 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.214 seconds (JVM running for 1.818)
+2023-06-01 01:12:28 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-06-01 01:12:28 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-06-01 01:12:28 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:12:28 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:12:28 [main] INFO  c.u.e.d.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:12:29 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:12:29 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
+2023-06-01 01:12:30 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:12:30 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:12:30 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
+2023-06-01 01:12:31 [Twitter Stream consumer /  [1][Waiting for 500 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:12:31 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:12:31 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 1000 milliseconds
+2023-06-01 01:12:32 [Twitter Stream consumer /  [1][Waiting for 1000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:12:33 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:12:33 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 2000 milliseconds
+2023-06-01 01:12:35 [Twitter Stream consumer /  [1][Waiting for 2000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:12:35 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:12:35 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 4000 milliseconds
+2023-06-01 01:12:39 [Twitter Stream consumer /  [1][Waiting for 4000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:12:39 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:12:39 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 8000 milliseconds
+2023-06-01 01:12:47 [Twitter Stream consumer /  [1][Waiting for 8000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:12:48 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:12:48 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 01:13:04 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:13:04 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:13:04 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 01:13:20 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-06-01 01:13:21 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-06-01 01:13:21 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-06-01 01:13:36 [SpringApplicationShutdownHook] INFO  c.u.e.d.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream!
+2023-06-01 01:13:38 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.16 on UGUR with PID 1156 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-06-01 01:13:38 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-01 01:13:39 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.207 seconds (JVM running for 1.759)
+2023-06-01 01:13:39 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-06-01 01:13:39 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-06-01 01:13:39 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:13:39 [main] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Started mock filtering stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:14:57 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.16 on UGUR with PID 20916 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-06-01 01:14:57 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-01 01:14:57 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.415 seconds (JVM running for 2.006)
+2023-06-01 01:14:57 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-06-01 01:14:57 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-06-01 01:14:57 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:14:57 [main] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Started mock filtering stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:16:31 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.16 on UGUR with PID 9288 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-06-01 01:16:31 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-01 01:16:32 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.207 seconds (JVM running for 1.722)
+2023-06-01 01:16:32 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-06-01 01:16:32 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-06-01 01:16:32 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:16:32 [main] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Started mock filtering stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:17:50 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.16 on UGUR with PID 13976 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-06-01 01:17:50 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-01 01:17:51 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.744 seconds (JVM running for 2.453)
+2023-06-01 01:17:51 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-06-01 01:17:51 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-06-01 01:17:51 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:17:51 [main] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Started mock filtering stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:17:51 [Thread-1] ERROR c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Error creating  twitter status
+twitter4j.TwitterException: Expected ':' after id at character 247 of {"created_at":"Thu Jun 01 01:17:51 AZT 2023","id":"1584230860678214839","text":"Rose Tracey Dave McCarter Mahesh Chand Dave McCarter Raj Kumar Dave McCarter Elasticsearch Raj Kumar Jeff Prosise Monica Rathbun Raj Kumar Dave McCarter","user":{"id"5927511362722779404"}}
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:57)
+	at com.ugurukku.event.driven.microservice.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner$1.run(MockKafkaStreamRunner.java:81)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: twitter4j.JSONException: Expected ':' after id at character 247 of {"created_at":"Thu Jun 01 01:17:51 AZT 2023","id":"1584230860678214839","text":"Rose Tracey Dave McCarter Mahesh Chand Dave McCarter Raj Kumar Dave McCarter Elasticsearch Raj Kumar Jeff Prosise Monica Rathbun Raj Kumar Dave McCarter","user":{"id"5927511362722779404"}}
+	at twitter4j.JSONTokener.syntaxError(JSONTokener.java:486)
+	at twitter4j.JSONTokener.readObject(JSONTokener.java:412)
+	at twitter4j.JSONTokener.nextValue(JSONTokener.java:130)
+	at twitter4j.JSONTokener.readObject(JSONTokener.java:418)
+	at twitter4j.JSONTokener.nextValue(JSONTokener.java:130)
+	at twitter4j.JSONObject.<init>(JSONObject.java:167)
+	at twitter4j.JSONObject.<init>(JSONObject.java:184)
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:55)
+	... 2 common frames omitted
+2023-06-01 01:19:20 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.16 on UGUR with PID 17664 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-06-01 01:19:20 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-01 01:19:21 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.302 seconds (JVM running for 1.863)
+2023-06-01 01:19:21 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-06-01 01:19:21 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-06-01 01:19:21 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:19:21 [main] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Started mock filtering stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:21:31 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.16 on UGUR with PID 11972 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-06-01 01:21:31 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-01 01:21:31 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.247 seconds (JVM running for 1.779)
+2023-06-01 01:21:31 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-06-01 01:21:31 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-06-01 01:21:31 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:21:31 [main] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Started mock filtering stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 01:21:32 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Mark Prime Monica Rathbun Dave McCarter Jeff Prosise Mike Crown Allen O'neill Microservices Allen O'neill Mahesh Chand Mike Crown Jeff Prosise Rose Tracey
+2023-06-01 01:21:42 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:21:42 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Rose Tracey Rose Tracey Mahesh Chand Mahesh Chand Java Mike Crown Raj Kumar
+2023-06-01 01:21:52 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:21:52 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Mark Prime Mark Prime Jeff Prosise Mahesh Chand Raj Kumar Mark Prime Microservices Henry He Mark Prime Rose Tracey Monica Rathbun
+2023-06-01 01:22:02 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:22:02 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Monica Rathbun Dave McCarter Henry He Monica Rathbun Jeff Prosise Mahesh Chand Monica Rathbun Microservices Mike Crown Allen O'neill Henry He Henry He Mark Prime Mahesh Chand
+2023-06-01 01:22:12 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:22:12 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Dave McCarter Raj Kumar Rose Tracey Jeff Prosise Dave McCarter Rose Tracey Elasticsearch Henry He Mark Prime Mike Crown Rose Tracey
+2023-06-01 01:22:22 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:22:22 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Monica Rathbun Monica Rathbun Raj Kumar Henry He Raj Kumar Dave McCarter Mahesh Chand Allen O'neill Spring Allen O'neill Allen O'neill Raj Kumar Jeff Prosise Raj Kumar Jeff Prosise
+2023-06-01 01:22:32 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:22:32 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Raj Kumar Mike Crown Mark Prime Monica Rathbun Microservices Dave McCarter Dave McCarter Mike Crown
+2023-06-01 01:22:42 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:22:42 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Henry He Jeff Prosise Allen O'neill Mark Prime Microservices Dave McCarter Mike Crown
+2023-06-01 01:22:52 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:22:52 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Jeff Prosise Dave McCarter Dave McCarter Henry He Jeff Prosise Raj Kumar Spring Mike Crown Jeff Prosise Mahesh Chand Mark Prime
+2023-06-01 01:23:02 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:23:02 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Mark Prime Allen O'neill Dave McCarter Mark Prime Raj Kumar Microservices Mahesh Chand Mike Crown Jeff Prosise Jeff Prosise
+2023-06-01 01:23:12 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:23:12 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Jeff Prosise Mark Prime Raj Kumar Henry He Dave McCarter Mahesh Chand Jeff Prosise Spring Mahesh Chand Jeff Prosise Henry He Monica Rathbun Jeff Prosise
+2023-06-01 01:23:22 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:23:22 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Mahesh Chand Mike Crown Jeff Prosise Monica Rathbun Java Henry He Monica Rathbun Dave McCarter
+2023-06-01 01:23:32 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:23:32 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Raj Kumar Allen O'neill Mahesh Chand Allen O'neill Dave McCarter Java Allen O'neill Mike Crown Allen O'neill
+2023-06-01 01:23:42 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:23:42 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Henry He Mark Prime Jeff Prosise Mike Crown Mike Crown Allen O'neill Elasticsearch Rose Tracey Mike Crown Allen O'neill Mahesh Chand Jeff Prosise
+2023-06-01 01:23:52 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:23:52 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Jeff Prosise Henry He Rose Tracey Allen O'neill Dave McCarter Microservices Mark Prime Dave McCarter Jeff Prosise Raj Kumar
+2023-06-01 01:24:02 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:24:02 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Henry He Mike Crown Mike Crown Mike Crown Mahesh Chand Microservices Raj Kumar Monica Rathbun Jeff Prosise
+2023-06-01 01:24:12 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:24:12 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Henry He Mike Crown Jeff Prosise Raj Kumar Rose Tracey Dave McCarter Jeff Prosise Rose Tracey Elasticsearch Henry He Jeff Prosise Mike Crown Mark Prime Monica Rathbun Jeff Prosise Allen O'neill
+2023-06-01 01:24:22 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:24:22 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Rose Tracey Mike Crown Mahesh Chand Dave McCarter Spring Henry He Monica Rathbun Mark Prime
+2023-06-01 01:24:32 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:24:32 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Raj Kumar Mike Crown Rose Tracey Spring Jeff Prosise Monica Rathbun
+2023-06-01 01:24:42 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:24:42 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Mike Crown Allen O'neill Monica Rathbun Mike Crown Mahesh Chand Java Henry He Mark Prime Mike Crown Henry He
+2023-06-01 01:24:52 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:24:52 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Mike Crown Mahesh Chand Jeff Prosise Kafka Raj Kumar Jeff Prosise
+2023-06-01 01:25:02 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:25:02 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Rose Tracey Dave McCarter Jeff Prosise Monica Rathbun Dave McCarter Mark Prime Java Mark Prime Allen O'neill Rose Tracey Mahesh Chand Monica Rathbun
+2023-06-01 01:25:12 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:25:12 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Allen O'neill Rose Tracey Allen O'neill Mike Crown Rose Tracey Dave McCarter Mahesh Chand Rose Tracey Microservices Mahesh Chand Henry He Allen O'neill Monica Rathbun Monica Rathbun Allen O'neill
+2023-06-01 01:25:22 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:25:22 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Rose Tracey Mike Crown Allen O'neill Mahesh Chand Java Mike Crown Rose Tracey
+2023-06-01 01:25:32 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:25:32 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Henry He Mahesh Chand Henry He Jeff Prosise Henry He Spring Rose Tracey Henry He Mike Crown Mike Crown
+2023-06-01 01:25:42 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:25:42 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Mahesh Chand Rose Tracey Raj Kumar Jeff Prosise Henry He Dave McCarter Raj Kumar Spring Allen O'neill Dave McCarter Monica Rathbun Mike Crown Monica Rathbun
+2023-06-01 01:25:52 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:25:52 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Henry He Raj Kumar Raj Kumar Jeff Prosise Mahesh Chand Henry He Mike Crown Kafka Raj Kumar Henry He Mike Crown Raj Kumar Rose Tracey Jeff Prosise
+2023-06-01 01:26:02 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:26:02 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Monica Rathbun Dave McCarter Henry He Mike Crown Raj Kumar Mahesh Chand Java Dave McCarter Allen O'neill Dave McCarter Monica Rathbun
+2023-06-01 01:26:12 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:26:12 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Dave McCarter Allen O'neill Mark Prime Mahesh Chand Mike Crown Dave McCarter Java Henry He Mark Prime Raj Kumar Mike Crown
+2023-06-01 01:26:22 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:26:22 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Mahesh Chand Henry He Mark Prime Jeff Prosise Spring Raj Kumar Mahesh Chand Henry He
+2023-06-01 01:26:32 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:26:32 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Raj Kumar Henry He Monica Rathbun Jeff Prosise Dave McCarter Rose Tracey Rose Tracey Java Dave McCarter Allen O'neill Rose Tracey Monica Rathbun Rose Tracey Henry He
+2023-06-01 01:26:42 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:26:42 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Mark Prime Mahesh Chand Rose Tracey Mahesh Chand Henry He Dave McCarter Allen O'neill Mike Crown Microservices Mike Crown Rose Tracey Jeff Prosise Mahesh Chand Mark Prime Raj Kumar
+2023-06-01 01:26:52 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:26:52 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Raj Kumar Dave McCarter Mike Crown Mahesh Chand Mahesh Chand Mark Prime Java Jeff Prosise Mahesh Chand Mike Crown Mahesh Chand
+2023-06-01 01:27:02 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:27:02 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Allen O'neill Mike Crown Rose Tracey Rose Tracey Allen O'neill Microservices Allen O'neill Mark Prime Rose Tracey Raj Kumar
+2023-06-01 01:27:12 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:27:12 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Dave McCarter Jeff Prosise Mike Crown Mike Crown Jeff Prosise Allen O'neill Jeff Prosise Spring Mike Crown Mahesh Chand Jeff Prosise Raj Kumar Monica Rathbun Dave McCarter
+2023-06-01 01:27:22 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:27:22 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Allen O'neill Mark Prime Mike Crown Microservices Mahesh Chand Mike Crown
+2023-06-01 01:27:32 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Processing....
+2023-06-01 01:27:32 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Allen O'neill Raj Kumar Allen O'neill Dave McCarter Monica Rathbun Monica Rathbun Jeff Prosise Mahesh Chand Java Mike Crown Raj Kumar Rose Tracey Raj Kumar Dave McCarter Mike Crown Mahesh Chand
+2023-06-01 02:14:54 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.16 on UGUR with PID 16000 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-06-01 02:14:54 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-01 02:14:54 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.1 seconds (JVM running for 2.346)
+2023-06-01 02:14:54 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-06-01 02:14:54 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-06-01 02:14:54 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 02:14:54 [main] INFO  c.u.e.d.m.t.t.k.s.r.i.MockKafkaStreamRunner - Started mock filtering stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-06-01 02:14:55 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Henry He Mark Prime Allen O'neill Allen O'neill Rose Tracey Dave McCarter Spring Dave McCarter Dave McCarter Jeff Prosise Henry He Allen O'neill
+2023-06-01 02:15:05 [Thread-1] INFO  c.u.e.d.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Dave McCarter Allen O'neill Monica Rathbun Henry He Rose Tracey Allen O'neill Spring Jeff Prosise Rose Tracey Raj Kumar Monica Rathbun Dave McCarter

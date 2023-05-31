@@ -4,7 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>twitter-to-kafka-service</module>
-
+        <module>app-config-data</module>
+        <module>kafka</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -24,6 +25,7 @@
         <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
         <twitter4j.version>4.0.7</twitter4j.version>
         <lombok.version>1.18.26</lombok.version>
+        <avro.version>1.10.0</avro.version>
     </properties>
 
     <dependencyManagement>
@@ -52,6 +54,12 @@
                 <artifactId>lombok</artifactId>
                 <scope>provided</scope>
                 <version>${lombok.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.avro</groupId>
+                <artifactId>avro</artifactId>
+                <version>${avro.version}</version>
             </dependency>
 
         </dependencies>

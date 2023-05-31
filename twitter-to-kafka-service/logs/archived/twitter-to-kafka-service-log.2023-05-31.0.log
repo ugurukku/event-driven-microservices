@@ -1,0 +1,11 @@
+2023-05-31 23:35:51 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 17.0.5 on UGUR with PID 8936 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-05-31 23:35:51 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-31 23:35:52 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.934 seconds (JVM running for 1.679)
+2023-05-31 23:35:52 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-05-31 23:35:52 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-05-31 23:38:24 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 17.0.5 on UGUR with PID 21152 (C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice\twitter-to-kafka-service\target\classes started by ugurk in C:\Users\ugurk\IdeaProjects\elnur\event-driven-microservice)
+2023-05-31 23:38:24 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-31 23:38:25 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.995 seconds (JVM running for 1.643)
+2023-05-31 23:38:25 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - HelloWorld
+2023-05-31 23:38:25 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - App starts..
+2023-05-31 23:38:25 [main] INFO  c.u.e.d.m.t.t.k.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
