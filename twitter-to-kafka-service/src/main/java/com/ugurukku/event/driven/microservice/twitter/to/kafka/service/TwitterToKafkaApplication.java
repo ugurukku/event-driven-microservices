@@ -26,6 +26,7 @@ public class TwitterToKafkaApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        LOGGER.info(configData.getWelcomeMessage());
         LOGGER.info("App starts..");
         LOGGER.info(configData.getTwitterKeywords().toString());
     }
