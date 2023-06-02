@@ -1,7 +1,7 @@
 package com.ugurukku.event.driven.microservice.kafka.producer.config.service.impl;
 
-import com.microservices.demo.kafka.avro.model.TwitterAvroModel;
 import com.ugurukku.event.driven.microservice.kafka.producer.config.service.KafkaProducer;
+import kafka.avro.model.TwitterAvroModel;
 import lombok.RequiredArgsConstructor;
 import org.apache.kafka.clients.producer.RecordMetadata;
 import org.slf4j.Logger;
@@ -39,7 +39,7 @@ public class TwitterKafkaProducer implements KafkaProducer<Long, TwitterAvroMode
     }
 
     private static void addCallback(String topicName, TwitterAvroModel message, ListenableFuture<SendResult<Long, TwitterAvroModel>> send) {
-        send.addCallback(new ListenableFutureCallback<SendResult<Long, TwitterAvroModel>>() {
+        send.addCallback(new ListenableFutureCallback<>() {
             @Override
             public void onFailure(Throwable ex) {
                 LOGGER.error("Error  while sending message {} to topic {}", message.toString(), topicName, ex);
